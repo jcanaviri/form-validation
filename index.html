@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form class="form" id="form">
+
+            <div class="form-control">
+                <label for="">Username</label>
+                <input type="text" placeholder="John Doe" id="username">
+                <i class="bx bxs-check-circle"></i>
+                <i class='bx bxs-error-circle' ></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="">Email</label>
+                <input type="text" placeholder="email@example.com" id="email">
+                <i class="bx bxs-check-circle"></i>
+                <i class='bx bxs-error-circle' ></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="">Password</label>
+                <input type="password" placeholder="Super Secret Password" id="password">
+                <i class="bx bxs-check-circle"></i>
+                <i class='bx bxs-error-circle' ></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="">Please check</label>
+                <input type="password" placeholder="Same Super Secret Password" id="password2">
+                <i class="bx bxs-check-circle"></i>
+                <i class='bx bxs-error-circle' ></i>
+                <small>Error Message</small>
+            </div>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
